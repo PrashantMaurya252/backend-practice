@@ -7,8 +7,8 @@ const router = express.Router()
 
 router.get('/get',getAllBooks)
 router.get('/get/:id',getSingleBookById)
-router.post('/add',updateSingleBook)
-router.put('/update/:id',addNewBook)
+router.post('/add',addNewBook)
+router.put('/update/:id',updateSingleBook)
 router.delete('/delete/:id',deleteBook)
 
 module.exports = router
